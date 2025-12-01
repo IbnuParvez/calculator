@@ -45,6 +45,7 @@ body {
 .main {
   font-size: 30px;
 }
+
 button {
     border-radius: 50px;
     width: 100px;
@@ -58,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(98, 102, 105);
+    background-color: rgb(118, 138, 153);
 }
 
 .wide {
