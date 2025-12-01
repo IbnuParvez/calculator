@@ -3,11 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple calculator application for basic arithmetic operations">
   <title>Calculator</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+<div class="container">
+  <section class="buttons">
+    <div>
+      <button class="display">0</button>
+    </div>
+    <div>
+      <button data-value="AC" aria-label="All Clear" class="wide">AC</button>
+      <button data-value="DE" aria-label="Delete" class="wide">DE</button>
+    </div>
+    <div>
+      <button data-value="7" aria-label="Seven">7</button>
+      <button data-value="8" aria-label="Eight">8</button>
+      <button data-value="9" aria-label="Nine">9</button>
+      <button data-value="+" aria-label="Addition">+</button>
+    </div>
+    <div>
+      <button data-value="4" aria-label="Four">4</button>
+      <button data-value="5" aria-label="Five">5</button>
+      <button data-value="6" aria-label="Six">6</button>
+      <button data-value="-" aria-label="Subtraction">-</button>
+    </div>
+    <div>
+      <button data-value="1" aria-label="One">1</button>
+      <button data-value="2" aria-label="Two">2</button>
+      <button data-value="3" aria-label="Three">3</button>
+      <button data-value="*" aria-label="Multiplication">x</button>
+    </div>
+    <div>
+      <button data-value="." aria-label="Decimal point">.</button>
+      <button data-value="0" aria-label="Zero">0</button>
+      <button data-value="/" aria-label="Division">÷</button>
+      <button data-value="=" aria-label="Equals">=</button>
+    </div>
+  </section>
+</div>
 
 <script src="script.js"></script>
 </body>
