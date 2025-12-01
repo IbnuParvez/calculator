@@ -22,7 +22,7 @@ body {
     border: 3px solid #333;                 /* outer border */
     border-radius: 20px;                     /* rounded corners */
     padding: 20px;                           /* space inside border */
-    background-color: #f2f2f2;               /* background inside border */
+    background-color: #3d6474;               /* background inside border */
     box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* shadow for 3D effect */
 }
 
@@ -42,7 +42,9 @@ body {
   justify-content: flex-end;
 }
 
-
+.main {
+  font-size: 30px;
+}
 button {
     border-radius: 50px;
     width: 100px;
@@ -52,6 +54,7 @@ button {
     font-size: 24px;
     padding: 12px 25px;
     transition: background-color 0.2s; /* smooth hover effect */
+    background-color: azure;
 }
 
 button:hover {
