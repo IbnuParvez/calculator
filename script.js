@@ -29,3 +29,9 @@ function operate(operator, a, b){
       return division(a, b)
   }
 }
+
+const inputValue = document.getElementById("user-input");
+
+function clr() {
+			document.getElementById("result").value = "";
+	}

@@ -59,9 +59,20 @@ button {
 }
 
 button:hover {
-    background-color: rgb(118, 138, 153);
+    background-color: rgb(186, 195, 202);
 }
 
-.wide {
+button:active,
+button:focus {
+  filter: brightness(120%);
+}
+
+.key-other {
     width: 225px; /* AC and DE buttons */
+    background-color: rgb(51, 107, 88);
+}
+
+.key-operations {
+  background-color: #6e1152;
+  font-size: 40px;
 }
